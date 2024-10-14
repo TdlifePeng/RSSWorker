@@ -4,7 +4,7 @@ on:
   repository_dispatch:
   push:
     branches:
-      - main
+      - 临时恢复b站
 jobs:
   deploy:
     runs-on: ubuntu-latest
