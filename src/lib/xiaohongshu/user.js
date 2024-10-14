@@ -48,7 +48,6 @@ let deal = async (ctx) => {
 			n.map(({ noteCard }) => ({
 				title: noteCard.displayTitle,
 				link: `${url}/${noteCard.noteId}`,
-				guid: noteCard.displayTitle,
 				description: `<img src ="${noteCard.cover.infoList.pop().url}"><br>${noteCard.displayTitle}`,
 				author: noteCard.user.nickname,
 				upvotes: noteCard.interactInfo.likedCount,
